@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <!-- ===== BOX ICONS ===== -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>GUSTA'S HAMBURGUERES | HAMBURGUERIA ARTESANAL</title>
+    <!--===== MAIN JS =====-->
+    <script src="./assets/js/main.js" defer></script>
+    <script src="./js/app.js" defer></script>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-grid">
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu-alt-left"></i>
+        </div>
+
+        <a href="#" class="nav__logo"><img
+          src="./assets/img/logo-removebg.png"
+          alt="base"
+          width="70px"
+          class="logo__img"
+        /></a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">INÍCIO</a>
+            </li>
+            <li class="nav__item">
+              <a href="#featured" class="nav__link">PROMOÇÕES</a>
+            </li>
+            <li class="nav__item">
+                <a href="#tropicais" class="nav__link">TIPOS</a>
+              </li>
+              <li class="nav__item"><a href="#new" class="nav__link">CARDÁPIO</a></li>
+              <li class="nav__item"><a href="./lanches.html" class="nav__link">TODOS</a></li>
+          </ul>
+        </div>
+
+        <div class="nav__shop">
+          <i class="bx bx-shopping-bag"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      
+      <!--===== HOME =====-->
+      <section class="home" id="home">
+        <div class="home__container bd-grid">
+          <div class="home__juice">
+            <div class="home__shape"></div>
+            <img
+              src="./assets/img/hamburguer_fila-removebg.png"
+              alt="base"
+              class="home__img"
+            />
+          </div>
+
+          <div class="home__data">
+            <span class="home__new">IMPERDÍVEL</span>
+            <h1 class="home__title">
+              Novos Tipos de Hamburgueres
+            </h1>
+            <p class="home__description">
+              Confira Todos Os Nossos Lanches
+            </p>
+            <a href="./lanches.html" class="button">LANCHES</a>
+          </div>
+        </div>
+      </section>
+
+      <!--===== FEATURED =====-->
+      <section class="featured section" id="featured">
+        <h2 class="section-title">% LANCHES EM OFERTA %</h2>
+        <div class="featured__container bd-grid">
+        </div>
+      </section>
+
+      <!--===== tropicais juiceS =====-->
+      <section class="tropicais section" id="tropicais">
+        <h2 class="section-title">TIPOS</h2>
+        <div class="tropicais__container bd-grid">
+        </div>
+      </section>
+
+      <!--===== NEW COLLECTION =====-->
+      <section class="new section" id="new">
+        <h2 class="section-title">CARDÁPIO</h2>
+        <div class="new__container bd-grid2">
+            <img
+              src="./assets/img/cardapio.png"
+              alt="base"
+              width="600px"
+              
+            />
+        </div>
+      </section>
+    <!--===== FOOTER =====-->
+    <footer class="footer section">
+      <div class="footer__container bd-grid">
+        <div class="footer__box">
+          <h3 class="footer__title">GUSTA'S HAMBURGUERES</h3>
+          <p class="footer__description">Sempre inovando nossos Lanches</p>
+        </div>
+          <div class="footer__box">
+            <h3 class="footer__title">CONTATO</h3>
+            <ul>
+              <li><a href="#" class="footer__link">Nos envie uma mensagem!</a></li>
+              <li><a href="#" class="footer__link">E-mail: gustavo.pereira@novaandradina.org</a></li>
+              <li><a href="#" class="footer__link">Telefone: (67) 99678-7242</a></li>
+            </ul>
+          </div>
+  
+          <div class="footer__box">
+            <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+            <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+            <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+            <a href="#" class="footer__social"><i class='bx bxl-google'></i></a>
+          </div>
+      </div>
+    </footer>
+  </body>
+</html>

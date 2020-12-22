@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "flavors",
+  "info": {
+    "name": "flavors",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "products": {
+      "via": "flavor",
+      "collection": "products"
+    }
+  }
+}
